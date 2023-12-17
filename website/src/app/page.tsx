@@ -6,9 +6,14 @@ import { Footer } from "./components/Footer";
 import { Sidebar } from "./components/Sidebar";
 
 const Page = () => (
-  <div className="flex">
-    <Sidebar />
-  </div>
+  <>
+    <div className="flex">
+      <Sidebar />
+    </div>
+    <div className=" text-right">
+      <Main />
+    </div>
+  </>
 );
 
 export default Page;
