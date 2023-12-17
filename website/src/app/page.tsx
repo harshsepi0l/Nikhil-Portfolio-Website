@@ -6,7 +6,7 @@ import { Footer } from "./components/Footer";
 import { Sidebar } from "./components/Sidebar";
 
 const Page = () => (
-  <div>
+  <div className="flex">
     <Sidebar />
   </div>
 );

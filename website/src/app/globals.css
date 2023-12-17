@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.sidebar-elements {
+  @apply relative flex items-center  justify-center h-10 w-24
+     mt-2 mb-2 mx-auto hover:bg-blue-800 hover:rounded-lg
+     transition-all;
+}
